@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2%;
+  color: rgb(60, 60, 60);
+  background-color: rgb(253, 249, 244);
+}
+
+.App__header--logo {
+  font-family: "Special Elite", cursive;
+  font-size: 3rem;
+  text-align: right;
+  line-height: 2;
+}
+
+.App__header--title {
+  font-family: "Special Elite", cursive;
+  font-size: 3rem;
+  text-align: right;
+  line-height: 2;
+}
