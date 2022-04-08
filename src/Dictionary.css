@@ -1,3 +1,8 @@
-.Dictionary {
-    color: black;
+.Dictionary__form {
+    margin: 0% 0% 2% 0%;
 }
+
+.Dictionary__form--input {
+    padding: 1%;
+}
+
