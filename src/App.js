@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
@@ -11,6 +12,9 @@ export default function App() {
             online dictionary and synonym application
           </h1>
         </header>
+        <main>
+          <Dictionary />
+        </main>
         <footer className="App__footer">
           <div className="App__footer--IPA">
             <strong>
