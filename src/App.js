@@ -24,8 +24,33 @@ export default function App() {
           </div>
           <div className="App__footer--English">
             <small>
-              Coded by H R Tagliarini, open-sourced on GitHub and hosted by
-              Netlify
+              Coded by{" "}
+              <a
+                className="App__footer--English-link"
+                href="https://htcodes.netlify.app"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                H R Tagliarini
+              </a>
+              , open-sourced on{" "}
+              <a
+                className="App__footer--English-link"
+                href="/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>{" "}
+              and hosted by{" "}
+              <a
+                className="App__footer--English-link"
+                href="https://magical-seahorse-96cf49.netlify.app/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                Netlify
+              </a>
             </small>
           </div>
           <div>
