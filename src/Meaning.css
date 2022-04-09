@@ -1,4 +1,15 @@
 .Meaning__example {
     padding-left: 5%;
-    color: rgb(104, 104, 104);
+    color: #898886;
+}
+
+.Meaning__part-of-speech,
+.Meaning__synonyms {
+    font-weight: 700;
+}
+
+@media (max-width: 570px) {
+    .Meaning__part-of-speech {
+        font-size: 1.25rem;
+    }
 }

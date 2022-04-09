@@ -1,0 +1,22 @@
+.Phonetic {
+    margin-bottom: 3%;
+}
+
+.fa-solid {
+    color: rgb(68, 68, 68);
+}
+
+.fa-solid:hover {
+    color: rgb(253, 249, 244);
+}
+
+.Phonetic__audio {
+    padding: 1% 2%;
+    background-color: rgb(253, 249, 244);
+    border-radius: 360px;
+    transition: 200ms all ease-in-out;
+}
+
+.Phonetic__audio:hover {
+    background-color: rgb(68, 68, 68);
+}

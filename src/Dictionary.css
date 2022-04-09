@@ -1,7 +1,16 @@
 .Dictionary__form {
-  margin: 0% 0% 2% 0%;
+    display: block;
+    background-image: linear-gradient(to bottom, rgb(68,68,68), rgb(68,68,68,0.1)), url(/src/background-image.jpg);
+    background-position: center;
+    background-color: rgba(60, 60, 60, 0.773);
 }
 
 .Dictionary__form--input {
+  margin: 2% 3%;
   padding: 1%;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(253, 249, 244);
+  font-size: 1.25rem;
+  color: rgb(60,60,60);
 }

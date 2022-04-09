@@ -1,43 +1,47 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
   box-sizing: border-box;
 }
 
 body {
-  padding: 2% 3%;
   font-family: "Cardo", serif;
   color: rgb(60, 60, 60);
   background-color: rgb(253, 249, 244);
 }
 
 .App__header {
-  padding: 2% 0% 5% 0%;
+  margin: 0;
+  padding: 2% 3%;
+  background-color: rgb(68, 68, 68);
+  color: rgb(253, 249, 244);
+  text-align: right;
 }
 
 .App__header--logo {
   font-weight: 700;
   font-size: 3rem;
-  letter-spacing: 0.5rem;
-  text-align: left;
+  letter-spacing: 0.45rem;
 }
 
 .App__header--subtitle {
   font-size: 1.5rem;
-  color: rgb(103, 103, 103);
+  color: rgb(216, 213, 209);
 }
 
 .App__footer {
-  padding-top: 5%;
+  padding: 2% 2%;
   text-align: center;
+  background-color: rgb(68, 68, 68);
+  color: rgb(253, 249, 244);
 }
 
 .App__footer--logo {
   display: block;
   margin: auto;
-  padding-top: 1%;
+  padding-top: 0.5%;
   align-content: center;
-  max-width: 20px;
+  max-width: 40px;
   transition: 200ms all ease-in-out;
 }
 
@@ -47,11 +51,30 @@ body {
 
 .App__footer--English-link {
   text-decoration: none;
-  color: rgb(129, 129, 129);
+  color: white;
   transition: 100ms all ease-in-out;
 }
 
 .App__footer--English-link:hover {
-  color: rgb(61, 61, 61);
+  font-weight: 700;
+  color:rgb(253, 249, 244);
   cursor: pointer;
+}
+
+@media (max-width: 570px) {
+  body {
+    margin: auto;
+  }
+
+  .App__header {
+    text-align: center;
+  }
+
+  .App__header--logo {
+    font-size: 2rem;
+  }
+
+  .App__header--subtitle {
+    font-size: 1.1rem;
+  }
 }

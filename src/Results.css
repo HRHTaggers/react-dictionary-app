@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Results {
+    padding: 0% 4%;
+}
+
+.Results__word {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.Results__phonetics {
+  padding: 2% 4%;
+  font-size: 1.5rem;
+  align-items: center;
+  background-color: rgb(68,68,68);
+  color: #fdf9f4;
+  border-radius: 4px;
+}
+
+.Results__phonetics--heading {
+    padding-bottom: 1%;
+}
+
+@media (max-width: 570px) {
+    .Results__word {
+        font-size: 3rem;
+    }
+
+    .Results__phonetics--heading {
+        font-size: 1.25rem;
+    }
+
+    .Results__phonetics {
+        font-size: 1rem;
+    }
+}

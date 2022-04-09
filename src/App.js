@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="container-fluid">
+      <div className="wrapper">
         <header className="App__header">
           <div className="App__header--logo">[ˈdɪkʃ(ə)n(ə)ri]</div>
           <h1 className="App__header--subtitle">
@@ -13,7 +13,7 @@ export default function App() {
           </h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="forest" />
         </main>
         <footer className="App__footer">
           <div className="App__footer--IPA">
