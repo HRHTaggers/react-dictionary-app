@@ -7,10 +7,18 @@ export default function App() {
     <div className="App">
       <div className="wrapper">
         <header className="App__header">
-          <div className="App__header--logo">[ˈdɪkʃ(ə)n(ə)ri]</div>
-          <h1 className="App__header--subtitle">
-            online dictionary and synonym application
-          </h1>
+          <div className="row">
+            <div className="App__header--instruction col-sm-4">
+            Enter word below
+            </div>
+            <div className="col-sm-8">
+            <div className="App__header--logo">[ˈdɪkʃ(ə)n(ə)ri]
+            </div>
+            <h1 className="App__header--subtitle">
+              online dictionary and synonym application
+            </h1>
+            </div>
+          </div>
         </header>
         <main>
           <Dictionary defaultKeyword="forest" />

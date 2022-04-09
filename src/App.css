@@ -18,6 +18,12 @@ body {
   text-align: right;
 }
 
+.App__header--instruction {
+  text-align: left;
+  line-height: 7rem;
+  font-size: 2rem;
+}
+
 .App__header--logo {
   font-weight: 700;
   font-size: 3rem;
