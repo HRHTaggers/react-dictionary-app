@@ -9,6 +9,7 @@ export default function Phonetic(props) {
           className="Phonetic__audio"
           href={props.phonetic.audio}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i class="fa-solid fa-ear-listen"></i>
         </a>

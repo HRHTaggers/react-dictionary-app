@@ -10,7 +10,8 @@ export default function Photos(props) {
                             <img 
                                 className="Photos__row--photo"
                                 src={photo.src.landscape} 
-                                key={index} 
+                                alt="no name"
+                                key={index}
                             />
                         );
                     })}
