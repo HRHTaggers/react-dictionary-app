@@ -9,14 +9,16 @@ export default function App() {
         <header className="App__header">
           <div className="row">
             <div className="App__header--instruction col-sm-4">
-            Enter word below
+              <div className="App__header--instruction-phonetic"><strong>
+                ˈɛntə wɜːd bɪˈləʊ
+                </strong></div>
+              Enter word below
             </div>
             <div className="col-sm-8">
-            <div className="App__header--logo">[ˈdɪkʃ(ə)n(ə)ri]
-            </div>
-            <h1 className="App__header--subtitle">
-              online dictionary and synonym application
-            </h1>
+              <div className="App__header--logo">[ˈdɪkʃ(ə)n(ə)ri]</div>
+              <h1 className="App__header--subtitle">
+                online dictionary and synonym application
+              </h1>
             </div>
           </div>
         </header>

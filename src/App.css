@@ -20,8 +20,12 @@ body {
 
 .App__header--instruction {
   text-align: left;
-  line-height: 7rem;
+  font-size: 1.5rem;
+}
+
+.App__header--instruction-phonetic {
   font-size: 2rem;
+  line-height: 4rem;
 }
 
 .App__header--logo {
@@ -74,6 +78,11 @@ body {
 
   .App__header {
     text-align: center;
+  }
+
+  .App__header--instruction{
+    text-align: center;
+    line-height: 5rem;
   }
 
   .App__header--logo {
