@@ -65,7 +65,7 @@ export default function App() {
           </div>
           <div>
             <a
-              href="https://htcodes.netlify.app/"
+              href="https://htcoding.netlify.app/"
               target="blank"
               rel="noopener noreferrer"
             >
