@@ -1,6 +1,6 @@
 * {
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -15,11 +15,11 @@ body {
   padding: 2% 4%;
   background-color: rgb(68, 68, 68);
   color: rgb(253, 249, 244);
-  text-align: right;
+  text-align: left;
 }
 
 .App__header--instruction {
-  text-align: left;
+  text-align: right;
   font-size: 1.5rem;
 }
 
@@ -97,5 +97,6 @@ body {
 
   .App__header--subtitle {
     font-size: 0.9rem;
+    padding-bottom: 0.5rem;
   }
 }
