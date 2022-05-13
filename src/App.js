@@ -15,7 +15,7 @@ export default function App() {
               </h1>
             </div>
           </div>
-          <div className="App__header--instruction col-sm-4">
+          <div className="App__header--instruction col-sm-3">
             <div className="App__header--instruction-phonetic">
               <strong>ˈɛntə wɜːd bɪˈləʊ</strong>
             </div>
