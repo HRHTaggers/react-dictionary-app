@@ -14,12 +14,12 @@ export default function App() {
                 online dictionary and synonym application
               </h1>
             </div>
-          </div>
-          <div className="App__header--instruction col-sm-3">
-            <div className="App__header--instruction-phonetic">
-              <strong>ˈɛntə wɜːd bɪˈləʊ</strong>
+            <div className="App__header--instruction col-sm-4">
+              <div className="App__header--instruction-phonetic">
+                <strong>ˈɛntə wɜːd bɪˈləʊ</strong>
+              </div>
+              Enter word below
             </div>
-            Enter word below
           </div>
         </header>
         <main>
