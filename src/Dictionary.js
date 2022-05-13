@@ -56,10 +56,10 @@ export default function Dictionary(props) {
                     onChange={handleWord} />
             </form>
             <div className="row">
-                <div className="col-sm-8">
+                <div className="col-sm-8 p-0">
                 <Results results={results}/>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-4 p-0">
                 <Photos photos={photos} />
                 </div>
             </div>

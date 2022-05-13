@@ -83,18 +83,19 @@ body {
   .App__header--instruction{
     padding: 2%;
     text-align: center;
+    font-size: 1.1rem;
   }
 
   .App__header--instruction-phonetic {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }
 
   .App__header--logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .App__header--subtitle {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
